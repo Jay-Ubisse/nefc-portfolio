@@ -15,7 +15,7 @@ export const HomePage = () => {
       <Header />
       <main className="h-screen w-screen bg-white flex flex-row">
         <section className="w-2/5 h-full bg-app-blue-200 flex items-center justify-center">
-          <div className="h-[75%] w-[70%] bg-app-blue-100 relative left-[30%]">
+          <div className="h-[75%] w-[70%] bg-app-blue-100 relative left-[30%] shadow-md shadow-slate-600">
             <div className="w-[150px] h-[150px] mx-auto mt-10 mb-7 bg-white rounded-[50%] flex justify-center items-center">
               <img
                 src={logotipo}
@@ -30,7 +30,7 @@ export const HomePage = () => {
             <h2 className="text-xl text-slate-900 text-center font-semibold my-3">
               Accredited Algorithmics Program Provider
             </h2>
-            <div className="absolute bottom-0 flex justify-center items-center gap-3 bg-white h-10 text-black w-full border border-app-blue-100">
+            <div className="absolute bottom-0 flex justify-center items-center gap-3 bg-white h-10 text-black w-full">
               <FacebookLogo size={24} weight="fill" className="hover:text-app-blue-200 hover:cursor-pointer" />
               <TwitterLogo size={24} weight="fill" className="hover:text-app-blue-200 hover:cursor-pointer" />
               <YoutubeLogo size={24} weight="fill" className="hover:text-app-blue-200 hover:cursor-pointer" />

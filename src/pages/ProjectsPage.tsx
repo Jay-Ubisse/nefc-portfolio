@@ -53,7 +53,7 @@ export const ProjectsPage = () => {
                                 <CaretRight size={20} weight="bold" />
                             </span>
                             <span>
-                                Softwares Developed
+                                Software Development
                             </span>
                         </li>
                     </ul>

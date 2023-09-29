@@ -1,7 +1,14 @@
+import { Footer } from "../components/Footer";
+import { Header } from "../components/Header";
+
 export const ServicesPage = () => {
     return ( 
         <div>
-            Services Page
+            <Header />
+            <main>
+
+            </main>
+            <Footer />
         </div>
      );
 }

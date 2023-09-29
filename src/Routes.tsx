@@ -13,11 +13,11 @@ const router = createBrowserRouter([
         element: <HomePage />,
     },
     {
-        path: "/projects",
+        path: "/services",
         element: <ServicesPage />,
     },
     {
-        path: "/services",
+        path: "/projects",
         element: <ProjectsPage />,
     },
 ]);

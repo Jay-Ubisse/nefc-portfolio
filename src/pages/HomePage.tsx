@@ -1,5 +1,10 @@
 import { NavLink } from "react-router-dom";
-import { FacebookLogo, InstagramLogo,TwitterLogo, YoutubeLogo } from "@phosphor-icons/react";
+import {
+  FacebookLogo,
+  InstagramLogo,
+  TwitterLogo,
+  YoutubeLogo,
+} from "@phosphor-icons/react";
 import { Footer } from "../components/Footer";
 import { Header } from "../components/Header";
 import logotipo from "../assets/img/logo-2.jpg";
@@ -11,25 +16,25 @@ export const HomePage = () => {
       <main className="h-screen w-screen bg-white flex flex-row">
         <section className="w-2/5 h-full bg-app-blue-200 flex items-center justify-center">
           <div className="h-[75%] w-[70%] bg-app-blue-100 relative left-[30%]">
-            <div 
-                className="w-[150px] h-[150px] mx-auto mt-10 mb-7 bg-white rounded-[50%] flex justify-center items-center"
-            >
+            <div className="w-[150px] h-[150px] mx-auto mt-10 mb-7 bg-white rounded-[50%] flex justify-center items-center">
               <img
                 src={logotipo}
                 alt="logo"
                 className="w-[100px] overflow-scroll"
               />
             </div>
-            <h1 className="text-2xl text-slate-900 font-bold text-center mb-5">NEFC Projects</h1>
+            <h1 className="text-2xl text-slate-900 font-bold text-center mb-5">
+              NEFC Projects
+            </h1>
             <hr className="h-[3px] bg-gradient-to-r from-red-700 to-violet-800 border-none w-1/4 mx-auto" />
             <h2 className="text-xl text-slate-900 text-center font-semibold my-3">
-                Accredited Algorithmics Program Provider
+              Accredited Algorithmics Program Provider
             </h2>
-            <div className="absolute bottom-0 flex justify-center items-center gap-2 bg-white h-10 text-black w-full border border-app-blue-100">
-                <FacebookLogo size={24} weight="fill" />
-                <TwitterLogo size={24} weight="fill" />
-                <YoutubeLogo size={24} weight="fill" />
-                <InstagramLogo size={24} weight="fill" />
+            <div className="absolute bottom-0 flex justify-center items-center gap-3 bg-white h-10 text-black w-full border border-app-blue-100">
+              <FacebookLogo size={24} weight="fill" className="hover:text-app-blue-200 hover:cursor-pointer" />
+              <TwitterLogo size={24} weight="fill" className="hover:text-app-blue-200 hover:cursor-pointer" />
+              <YoutubeLogo size={24} weight="fill" className="hover:text-app-blue-200 hover:cursor-pointer" />
+              <InstagramLogo size={24} weight="fill" className="hover:text-app-blue-200 hover:cursor-pointer" />
             </div>
           </div>
         </section>
@@ -54,10 +59,13 @@ export const HomePage = () => {
               </NavLink>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-              animi, fugiat adipisci quod eligendi libero tenetur repellendus
-              quas commodi id nihil vitae hic illo iure, deleniti dignissimos
-              vel, consequatur soluta?
+              Specializing in international business facilitation, project
+              development, Education Technology development(tutoring) and
+              general consulting services, our mission is to foster growth,
+              innovation, and success within the young population. With
+              unwavering commitment, a collaborative approach, and strong core
+              values, we offer exceptional and customized cross-industry
+              solutions to drive our client’s business forward.
             </p>
           </div>
         </section>

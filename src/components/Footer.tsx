@@ -2,7 +2,7 @@ import logotipo from "../assets/img/logo.jpg";
 
 export const Footer = () => {
   return (
-    <footer className="footer footer-center p-10 bg-app-white text-slate-800">
+    <footer className="footer footer-center p-10 bg-gradient-to-r from-white to-app-blue-200/40 text-slate-800">
       <aside>
       <img
               src={logotipo}
@@ -10,7 +10,7 @@ export const Footer = () => {
               className="laptop:w-60 mobile:w-60 "
             />
         <p className="font-bold">
-            NEFC Project Ltd.
+            NEFC Project Lda.
         </p>
         <p>Copyright © 2023 - All right reserved</p>
       </aside>

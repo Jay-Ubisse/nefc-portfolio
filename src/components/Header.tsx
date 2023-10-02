@@ -8,7 +8,7 @@ export const Header = () => {
 
   return (
     <header
-      className="bg-white text-black h-32"
+      className="bg-gradient-to-r from-white to-app-blue-200/20 h-32"
       id="mainHeader"
     >
       <section className="relative h-full flex justify-between items-center laptop:flex-row laptop:w-[95%] laptop:mx-auto">
@@ -23,7 +23,7 @@ export const Header = () => {
         </div>
         <div
           className={`${
-            menuState ? "mobile:flex bg-app-blue-100" : "mobile:hidden bg-white"
+            menuState ? "mobile:flex bg-app-blue-100" : "mobile:hidden bg-transparent"
           } relative laptop:gap-2 mobile:gap-16 items-center laptop:flex laptop:flex-row-reverse mobile:flex-col mobile:w-screen laptop:w-fit mobile:h-screen laptop:h-fit mobile:overflow-scroll laptop:overflow-hidden mobile:fixed laptop:relative top-0 left-0 mobile:pt-10 laptop:pt-0 z-30`}
         >
           <div className="flex flex-row justify-end mobile:w-full laptop:w-fit">
@@ -39,8 +39,8 @@ export const Header = () => {
             <NavLink
               to="/"
               className={({ isActive }) =>
-                `hover:text-app-blue-200 ${
-                  isActive ? "text-app-blue-200 font-semibold" : "text-slate-800"
+                `hover:text-red-700 ${
+                  isActive ? "text-red-700 font-semibold" : "text-app-blue-200"
                 }`
               }
             >
@@ -49,8 +49,8 @@ export const Header = () => {
             <NavLink
               to="/services"
               className={({ isActive }) =>
-                `hover:text-app-blue-200 ${
-                  isActive ? "text-app-blue-200 font-semibold" : "text-slate-800"
+                `hover:text-red-700 ${
+                  isActive ? "text-red-700 font-semibold" : "text-app-blue-200"
                 }`
               }
             >
@@ -59,8 +59,8 @@ export const Header = () => {
             <NavLink
               to="/projects"
               className={({ isActive }) =>
-                `hover:text-app-blue-200 ${
-                  isActive ? "text-app-blue-200 font-semibold" : "text-slate-800"
+                `hover:text-red-700 ${
+                  isActive ? "text-red-700 font-semibold" : "text-app-blue-200"
                 }`
               }
             >
@@ -70,8 +70,8 @@ export const Header = () => {
               to="https://nefcprojectslda.co.mz/"
               target="_blank"
               className={({ isActive }) =>
-                `hover:text-app-blue-200 ${
-                  isActive ? "text-app-blue-200 font-semibold" : "text-slate-800"
+                `hover:text-red-700 ${
+                  isActive ? "text-red-700 font-semibold" : "text-app-blue-200"
                 }`
               }
             >

@@ -21,7 +21,7 @@ export const Algorithmics = () => {
             className="bg-gradient-to-r from-app-blue-200 to bg-red-800 shadow-slate-500 shadow-md rounded-lg hover:shadow-slate-700 flex justify-between py-5 px-5 items-center text-white "
           >
             <span className="font-semibold laptop:text-base mobile:text-sm">
-              Python Beginner
+              Python Start
             </span>
             <span>
               <CaretRight size={32} weight="bold" />

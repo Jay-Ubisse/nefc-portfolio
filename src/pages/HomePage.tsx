@@ -28,7 +28,7 @@ export const HomePage = () => {
             </h1>
             <hr className="h-[3px] bg-gradient-to-r from-red-700 to-violet-800 border-none w-1/4 mx-auto" />
             <h2 className="text-xl text-slate-200 text-center font-semibold my-3">
-              General Consulting and Learning
+              General Consulting and Learning Facilitation Hub
             </h2>
             <div className="absolute bottom-0 flex justify-center items-center gap-3 bg-white h-10 text-black w-full">
               <FacebookLogo size={24} weight="fill" className="hover:text-app-blue-200 hover:cursor-pointer" />
@@ -40,7 +40,7 @@ export const HomePage = () => {
         </section>
         <section className="w-3/5 h-full flex items-center bg-transparent">
           <div className="h-3/5 w-1/2 ml-36">
-            <h1 className="text-8xl text-slate-100 font-bold mb-7">Hello</h1>
+            <h1 className="text-8xl text-white font-bold mb-7">Hello</h1>
             <h2 className="text-xl text-slate-200 font-semibold mb-3">
               Our Services and Projects
             </h2>
@@ -60,7 +60,7 @@ export const HomePage = () => {
             </div>
             <p className="text-slate-200">
               Specializing in international business facilitation, project
-              development, Education Technology development(tutoring) and
+              development, Education Technology development (mentoring) and
               general consulting services, our mission is to foster growth,
               innovation, and success within the young population. With
               unwavering commitment, a collaborative approach, and strong core

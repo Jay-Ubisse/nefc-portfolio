@@ -7,8 +7,8 @@ export const ServicesPage = () => {
   return (
     <div>
       <Header />
-      <main className="w-2/3 mx-auto mt-8 bg-app-blue-100/20 p-10 rounded-md shadow-md shadow-slate-200">
-        <h1 className="font-bold text-app-blue-200 text-xl border-b-2 border-app-blue-200 pb-2 w-fit pr-5 mb-5">
+      <main className="bg-gradient-to-r from-red-800 to-app-blue-200 p-10">
+        <h1 className="font-bold text-white text-3xl border-b-2 border-white pb-2 w-fit pr-5 mb-5">
           Our Services
         </h1>
         <div className="flex flex-col gap-2 text-white">
@@ -16,7 +16,7 @@ export const ServicesPage = () => {
             {({ open }) => (
               <>
                 <Disclosure.Button className="flex w-full justify-between items-center rounded-xl px-4 py-4 text-left text-xl font-medium text-white bg-gradient-to-br from-app-blue-100 to-app-blue-200">
-                  <span>IT tutoring and creation</span>
+                  <span>Online Learning Tutoring & creation</span>
                   <CaretDown
                     weight="bold"
                     className={`${
@@ -24,17 +24,18 @@ export const ServicesPage = () => {
                     } h-5 w-5 text-appgreen-300`}
                   />
                 </Disclosure.Button>
-                <Disclosure.Panel className="px-4 py-2 text-white bg-app-blue-100">
+                <Disclosure.Panel className="px-4 py-2 text-white bg-transparent border-2 rounded-md border-app-blue-100 -mt-1">
                   <p>
-                    At NEFC Projects Limitada, we offer comprehensive IT
-                    tutoring and creation services, equipping individuals and
+                    At NEFC Projects Limitada, we offer comprehensive Learning
+                    mentoring and creation services, equipping individuals and
                     organizations with the knowledge and solutions they need to
                     thrive in the digital age. Our young and highly skilled
-                    tutors provide personalized IT tutoring, helping learners of
-                    all levels master essential computer skills, programming
-                    languages, and software applications. We help you
-                    confidently navigate the digital landscape and leverage
-                    technology to achieve your goals.
+                    mentors provide personalized learning mentorship, helping
+                    learners of all levels to master essential computer skills,
+                    programming languages, and software applications and other
+                    modern technologies. We help them to confidently navigate
+                    the digital landscape and leverage knowledge of technology
+                    to achieve their goals.
                   </p>
                 </Disclosure.Panel>
               </>
@@ -44,7 +45,7 @@ export const ServicesPage = () => {
             {({ open }) => (
               <>
                 <Disclosure.Button className="flex w-full justify-between items-center rounded-xl px-4 py-4 text-left text-xl font-medium text-white bg-gradient-to-br from-app-blue-100 to-app-blue-200">
-                  <span>Foreign Company/business representation</span>
+                  <span>Representation of International Partners</span>
                   <CaretDown
                     weight="bold"
                     className={`${
@@ -52,16 +53,18 @@ export const ServicesPage = () => {
                     } h-5 w-5 text-appgreen-300`}
                   />
                 </Disclosure.Button>
-                <Disclosure.Panel className="px-4 py-2 text-white bg-app-blue-100">
+                <Disclosure.Panel className="px-4 py-2 text-white bg-transparent border-2 rounded-md border-app-blue-100 -mt-1">
                   <p>
-                    Expanding your operations abroad, navigating local
-                    regulations, establishing connections, and building a solid
-                    presence can be daunting. But that’s where we step in to
-                    guide businesses to success in foreign representation. Our
-                    experienced team understands local business practices,
-                    regulations, and cultural nuances. We help you establish a
-                    strong presence by connecting you with stakeholders,
-                    facilitating negotiations, and providing valuable guidance.
+                    We also do channel our international partners' interests in
+                    Mozambique and in the rest of SADC countries; navigating
+                    local regulations, establishing connections, and building a
+                    solid presence can be daunting. But that’s where we step in
+                    to guide businesses to success. Our experienced consultants
+                    understand local business practices, regulations, cultural
+                    nuances and are well connected within SADC region as well.
+                    We help our partners to establish a strong presence by
+                    connecting you with stakeholders, facilitating negotiations,
+                    and providing valuable guidance.
                   </p>
                 </Disclosure.Panel>
               </>
@@ -79,7 +82,7 @@ export const ServicesPage = () => {
                     } h-5 w-5 text-appgreen-300`}
                   />
                 </Disclosure.Button>
-                <Disclosure.Panel className="px-4 py-2 text-white bg-app-blue-100">
+                <Disclosure.Panel className="px-4 py-2 text-white bg-transparent border-2 rounded-md border-app-blue-100 -mt-1">
                   <p>
                     As a trusted partner, we bring expertise and insights to
                     help you overcome challenges and make informed decisions.
@@ -107,7 +110,7 @@ export const ServicesPage = () => {
                     } h-5 w-5 text-appgreen-300`}
                   />
                 </Disclosure.Button>
-                <Disclosure.Panel className="px-4 py-2 text-white bg-app-blue-100">
+                <Disclosure.Panel className="px-4 py-2 text-white bg-transparent border-2 rounded-md border-app-blue-100 -mt-1">
                   <p>
                     We understand that embarking on projects can be a complex
                     journey but with the right team, planning, and execution
@@ -133,7 +136,7 @@ export const ServicesPage = () => {
                     } h-5 w-5 text-appgreen-300`}
                   />
                 </Disclosure.Button>
-                <Disclosure.Panel className="px-4 py-2 text-white bg-app-blue-100">
+                <Disclosure.Panel className="px-4 py-2 text-white bg-transparent border-2 rounded-md border-app-blue-100 -mt-1">
                   <p>
                     Unlocking the potential of local, regional and international
                     markets can take be a very complicated process involving

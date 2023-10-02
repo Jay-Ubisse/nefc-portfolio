@@ -5,7 +5,7 @@ import { Footer } from "../components/Footer";
 import { Header } from "../components/Header";
 import { Algorithmics } from "../components/projects/Algorithmics";
 import { Coding } from "../components/projects/Coding";
-import { SoftwaresDeveloped } from "../components/projects/SoftwaresDeveloped";
+import { Yolo } from "../components/projects/Yolo";
 
 export const ProjectsPage = () => {
     const [project, setSetProject] = useState(<Algorithmics />);
@@ -40,11 +40,11 @@ export const ProjectsPage = () => {
                                 <CaretRight size={20} weight="bold" />
                             </span>
                             <span>
-                                Coding, New Tech & Entrepreneurship Hub
+                                New Tech & Youth Entrepreneurship Hub
                             </span>
                         </li>
                         <li 
-                            onClick={() => {setProjectNumber(3); setSetProject(<SoftwaresDeveloped />)}}
+                            onClick={() => {setProjectNumber(3); setSetProject(<Yolo />)}}
                             className={`${
                                 projectNumber === 3 ? "text-cyan-300" : "text-white"
                               } flex gap-2 items-center hover:cursor-pointer`}
@@ -53,7 +53,7 @@ export const ProjectsPage = () => {
                                 <CaretRight size={20} weight="bold" />
                             </span>
                             <span>
-                                Software Development
+                                Yolo
                             </span>
                         </li>
                     </ul>

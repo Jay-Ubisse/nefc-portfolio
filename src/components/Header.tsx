@@ -67,8 +67,7 @@ export const Header = () => {
               Our Projects
             </NavLink>
             <NavLink
-              to="https://nefcprojectslda.co.mz/"
-              target="_blank"
+              to="/websites"
               className={({ isActive }) =>
                 `hover:text-red-700 ${
                   isActive ? "text-red-700 font-semibold" : "text-app-blue-200"

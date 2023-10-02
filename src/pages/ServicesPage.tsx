@@ -15,7 +15,13 @@ export const ServicesPage = () => {
           <Disclosure>
             {({ open }) => (
               <>
-                <Disclosure.Button className="flex w-full justify-between items-center rounded-xl px-4 py-4 text-left text-xl font-medium text-white bg-gradient-to-br from-app-blue-100 to-app-blue-200">
+                <Disclosure.Button
+                  className={`${
+                    open
+                      ? "from-app-blue-200 to-red-800"
+                      : "from-red-700 to-app-blue-200"
+                  } bg-gradient-to-r hover:from-app-blue-200 hover:to-red-800 shadow-slate-500 shadow-md rounded-lg hover:shadow-slate-700 flex justify-between py-5 px-5 items-center text-white font-medium text-lg`}
+                >
                   <span>Online Learning Tutoring & creation</span>
                   <CaretDown
                     weight="bold"
@@ -44,7 +50,11 @@ export const ServicesPage = () => {
           <Disclosure>
             {({ open }) => (
               <>
-                <Disclosure.Button className="flex w-full justify-between items-center rounded-xl px-4 py-4 text-left text-xl font-medium text-white bg-gradient-to-br from-app-blue-100 to-app-blue-200">
+                <Disclosure.Button className={`${
+                    open
+                      ? "from-app-blue-200 to-red-800"
+                      : "from-red-700 to-app-blue-200"
+                  } bg-gradient-to-r hover:from-app-blue-200 hover:to-red-800 shadow-slate-500 shadow-md rounded-lg hover:shadow-slate-700 flex justify-between py-5 px-5 items-center text-white font-medium text-lg`}>
                   <span>Representation of International Partners</span>
                   <CaretDown
                     weight="bold"
@@ -73,7 +83,11 @@ export const ServicesPage = () => {
           <Disclosure>
             {({ open }) => (
               <>
-                <Disclosure.Button className="flex w-full justify-between items-center rounded-xl px-4 py-4 text-left text-xl font-medium text-white bg-gradient-to-br from-app-blue-100 to-app-blue-200">
+                <Disclosure.Button className={`${
+                    open
+                      ? "from-app-blue-200 to-red-800"
+                      : "from-red-700 to-app-blue-200"
+                  } bg-gradient-to-r hover:from-app-blue-200 hover:to-red-800 shadow-slate-500 shadow-md rounded-lg hover:shadow-slate-700 flex justify-between py-5 px-5 items-center text-white font-medium text-lg`}>
                   <span>General consulting service</span>
                   <CaretDown
                     weight="bold"
@@ -101,7 +115,11 @@ export const ServicesPage = () => {
           <Disclosure>
             {({ open }) => (
               <>
-                <Disclosure.Button className="flex w-full justify-between items-center rounded-xl px-4 py-4 text-left text-xl font-medium text-white bg-gradient-to-br from-app-blue-100 to-app-blue-200">
+                <Disclosure.Button className={`${
+                    open
+                      ? "from-app-blue-200 to-red-800"
+                      : "from-red-700 to-app-blue-200"
+                  } bg-gradient-to-r hover:from-app-blue-200 hover:to-red-800 shadow-slate-500 shadow-md rounded-lg hover:shadow-slate-700 flex justify-between py-5 px-5 items-center text-white font-medium text-lg`}>
                   <span>Projects development and management</span>
                   <CaretDown
                     weight="bold"
@@ -127,7 +145,11 @@ export const ServicesPage = () => {
           <Disclosure>
             {({ open }) => (
               <>
-                <Disclosure.Button className="flex w-full justify-between items-center rounded-xl px-4 py-4 text-left text-xl font-medium text-white bg-gradient-to-br from-app-blue-100 to-app-blue-200">
+                <Disclosure.Button className={`${
+                    open
+                      ? "from-app-blue-200 to-red-800"
+                      : "from-red-700 to-app-blue-200"
+                  } bg-gradient-to-r hover:from-app-blue-200 hover:to-red-800 shadow-slate-500 shadow-md rounded-lg hover:shadow-slate-700 flex justify-between py-5 px-5 items-center text-white font-medium text-lg`}>
                   <span> International business facilitation</span>
                   <CaretDown
                     weight="bold"

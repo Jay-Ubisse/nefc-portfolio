@@ -11,9 +11,9 @@ import logotipo from "../assets/img/logo-2.jpg";
 
 export const HomePage = () => {
   return (
-    <div>
+    <div className="w-screen bg-gradient-to-r from-red-800 to-app-blue-200">
       <Header />
-      <main className="h-screen w-screen bg-gradient-to-r from-red-800 to-app-blue-200 flex flex-row">
+      <main className="h-screen flex flex-row">
         <section className="w-2/5 h-full bg-atranspaent flex items-center justify-center">
           <div className="h-[75%] w-[70%] bg-app-blue-200 relative left-[30%] shadow-lg shadow-red-600">
             <div className="w-[150px] h-[150px] mx-auto mt-10 mb-7 bg-white rounded-[50%] flex justify-center items-center">

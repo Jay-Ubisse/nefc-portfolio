@@ -5,9 +5,9 @@ import { Header } from "../components/Header";
 
 export const ServicesPage = () => {
   return (
-    <div>
+    <div className="bg-gradient-to-r from-red-800 to-app-blue-200 ">
       <Header />
-      <main className="bg-gradient-to-r from-red-800 to-app-blue-200 p-10">
+      <main className="p-10">
         <h1 className="font-bold text-white text-3xl border-b-2 border-white pb-2 w-fit pr-5 mb-5">
           Our Services
         </h1>

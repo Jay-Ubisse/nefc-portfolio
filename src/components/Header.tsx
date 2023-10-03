@@ -8,7 +8,7 @@ export const Header = () => {
 
   return (
     <header
-      className="bg-gradient-to-r from-white to-app-blue-200/20 h-32"
+      className="h-32"
       id="mainHeader"
     >
       <section className="relative h-full flex justify-between items-center laptop:flex-row laptop:w-[95%] laptop:mx-auto">
@@ -40,7 +40,7 @@ export const Header = () => {
               to="/"
               className={({ isActive }) =>
                 `hover:text-red-700 ${
-                  isActive ? "text-red-700 font-semibold" : "text-app-blue-200"
+                  isActive ? "text-red-700 font-semibold" : "text-white"
                 }`
               }
             >
@@ -50,7 +50,7 @@ export const Header = () => {
               to="/services"
               className={({ isActive }) =>
                 `hover:text-red-700 ${
-                  isActive ? "text-red-700 font-semibold" : "text-app-blue-200"
+                  isActive ? "text-red-700 font-semibold" : "text-white"
                 }`
               }
             >
@@ -60,7 +60,7 @@ export const Header = () => {
               to="/projects"
               className={({ isActive }) =>
                 `hover:text-red-700 ${
-                  isActive ? "text-red-700 font-semibold" : "text-app-blue-200"
+                  isActive ? "text-red-700 font-semibold" : "text-white"
                 }`
               }
             >
@@ -70,7 +70,7 @@ export const Header = () => {
               to="/websites"
               className={({ isActive }) =>
                 `hover:text-red-700 ${
-                  isActive ? "text-red-700 font-semibold" : "text-app-blue-200"
+                  isActive ? "text-red-700 font-semibold" : "text-white"
                 }`
               }
             >

@@ -11,9 +11,9 @@ export const ProjectsPage = () => {
     const [project, setSetProject] = useState(<Algorithmics />);
     const [projectNumber, setProjectNumber] = useState(1);
     return ( 
-        <div>
+        <div className="bg-gradient-to-r from-red-800 to-app-blue-200 ">
             <Header />
-            <main className="bg-gradient-to-r from-app-blue-200 to-red-800 h-[calc(100vh-100px)] flex flex-row pt-3 pr-1 pb-1 pl-2 justify-between">
+            <main className="h-[calc(100vh-100px)] flex flex-row pt-3 pr-1 pb-1 pl-2 justify-between">
                 <nav className="h-full w-[20%] bg-transparent text-white pt-10">
                     <h1 className="font-semibold text-xl text-center border-b-2 border-white pb-1 w-[70%] mx-auto mb-8">Active Projects</h1>
                     <ul className="ml-3 flex flex-col gap-4">

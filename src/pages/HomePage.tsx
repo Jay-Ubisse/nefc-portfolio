@@ -40,11 +40,13 @@ export const HomePage = () => {
         </section>
         <section className="w-3/5 h-full flex items-center bg-transparent">
           <div className="h-3/5 w-1/2 ml-36">
-            <h1 className="text-8xl text-white font-bold mb-7">Hello</h1>
+            <h1 className="text-8xl text-white font-bold mb-7">Hello,</h1>
             <h2 className="text-xl text-slate-200 font-semibold mb-3">
-              Our Services and Projects
+              <em>
+                with NEFC PROJECTS LDA we work together for a better youth generation.
+              </em>
             </h2>
-            <div className="flex gap-5 w-4/5 mb-6 font-medium">
+            <div className="flex gap-5 w-4/5 mb-6 font-medium mt-10">
               <NavLink
                 to="/services"
                 className="bg-app-blue-200 text-white rounded-full px-8 py-2 border border-app-blue-200 hover:bg-transparent hover:border-white"

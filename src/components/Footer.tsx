@@ -12,6 +12,9 @@ export const Footer = () => {
         <p className="font-bold">
             NEFC Project Lda.
         </p>
+        <p>
+          Av. Tomas Nduda No 1193, Sommerschield 1 - Maputo, Mozambique.
+        </p>
         <p>Copyright © 2023 - All right reserved</p>
       </aside>
       <nav>

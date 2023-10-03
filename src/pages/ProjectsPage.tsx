@@ -58,7 +58,7 @@ export const ProjectsPage = () => {
                         </li>
                     </ul>
                 </nav>
-                <article className="h-full w-[80%] bg-white rounded-tl-3xl p-7 overflow-y-scroll">
+                <article className="relative h-full w-[80%] bg-white rounded-tl-3xl p-7 overflow-y-scroll">
                     {project}
                 </article>
             </main>

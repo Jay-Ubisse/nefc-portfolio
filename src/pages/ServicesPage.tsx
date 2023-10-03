@@ -22,7 +22,7 @@ export const ServicesPage = () => {
                       : "from-red-700 to-app-blue-200"
                   } bg-gradient-to-r hover:from-app-blue-200 hover:to-red-800 shadow-slate-500 shadow-md rounded-lg hover:shadow-slate-700 flex justify-between py-5 px-5 items-center text-white font-medium text-lg`}
                 >
-                  <span>Online Learning Tutoring & creation</span>
+                  <span>Online learning tutoring & creation</span>
                   <CaretDown
                     weight="bold"
                     className={`${

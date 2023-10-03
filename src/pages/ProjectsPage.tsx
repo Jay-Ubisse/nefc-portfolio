@@ -26,7 +26,7 @@ export const ProjectsPage = () => {
                         <li 
                             onClick={() => {setProjectNumber(1); setSetProject(<Algorithmics />)}}
                             className={`${
-                                projectNumber === 1 ? "text-app-blue-200" : "text-white"
+                                projectNumber === 1 ? "text-app-blue-200 font-medium" : "text-white"
                               } flex gap-2 items-center hover:cursor-pointer`}
                         >
                             <span>
@@ -39,7 +39,7 @@ export const ProjectsPage = () => {
                         <li 
                             onClick={() => {setProjectNumber(2); setSetProject(<Coding />)}}
                             className={`${
-                                projectNumber === 2 ? "text-app-blue-200" : "text-white"
+                                projectNumber === 2 ? "text-app-blue-200 font-medium" : "text-white"
                               } flex gap-2 items-center hover:cursor-pointer`}
                         >
                             <span>
@@ -59,7 +59,7 @@ export const ProjectsPage = () => {
                         <li 
                             onClick={() => {setProjectNumber(3); setSetProject(<Yolo />)}}
                             className={`${
-                                projectNumber === 3 ? "text-app-blue-200" : "text-white"
+                                projectNumber === 3 ? "text-app-blue-200 font-medium" : "text-white"
                               } flex gap-2 items-center hover:cursor-pointer`}
                         >
                             <span>
@@ -72,7 +72,7 @@ export const ProjectsPage = () => {
                         <li 
                             onClick={() => {setProjectNumber(4); setSetProject(<Pentagon />)}}
                             className={`${
-                                projectNumber === 4 ? "text-app-blue-200" : "text-white"
+                                projectNumber === 4 ? "text-app-blue-200 font-medium" : "text-white"
                               } flex gap-2 items-center hover:cursor-pointer`}
                         >
                             <span>
@@ -85,7 +85,7 @@ export const ProjectsPage = () => {
                         <li 
                             onClick={() => {setProjectNumber(5); setSetProject(<WansatiLab />)}}
                             className={`${
-                                projectNumber === 5 ? "text-app-blue-200" : "text-white"
+                                projectNumber === 5 ? "text-app-blue-200 font-medium" : "text-white"
                               } flex gap-2 items-center hover:cursor-pointer`}
                         >
                             <span>

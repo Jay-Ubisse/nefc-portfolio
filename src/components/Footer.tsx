@@ -2,7 +2,7 @@ import logotipo from "../assets/img/logo.jpg";
 
 export const Footer = () => {
   return (
-    <footer className="footer footer-center p-10 text-white">
+    <footer className="footer footer-center p-10 text-white mt-20">
       <aside>
       <img
               src={logotipo}

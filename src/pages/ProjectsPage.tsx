@@ -16,7 +16,7 @@ export const ProjectsPage = () => {
     return (
         <div className="bg-gradient-to-r from-red-800 to-app-blue-200 ">
             <Header />
-            <main className="relative h-[calc(100vh-100px)] flex flex-row laptop:pt-3 mobile:pt-20 laptop:pr-1 pb-1 laptop:pl-2 justify-between">
+            <main className="relative laptop:h-[calc(100vh-100px)] mobile:min-h-screen flex flex-row laptop:pt-3 mobile:pt-20 laptop:pr-1 pb-1 laptop:pl-2 justify-between">
                 <div
                     className={`${menuState ? "mobile:hidden" : "mobile:flex"
                         } laptop:hidden fixed top-32 right-7 bg-red-700 text-white h-11 w-11 justify-center items-center rounded-[50%] z-20 shadow-lg shadow-red-700`}
@@ -24,7 +24,7 @@ export const ProjectsPage = () => {
                 >
                     <DotsThreeCircleVertical size={32} />
                 </div>
-                <nav className={`${menuState ? "mobile:block absolute top-0 left-0 z-10 rounded-tr-3xl pr-5" : "mobile:hidden"
+                <nav className={`${menuState ? "mobile:block absolute top-0 left-0 z-40 rounded-tr-3xl pr-5" : "mobile:hidden"
                     } laptop:block h-full laptop:w-[20%] mobile:w-[80%] laptop:bg-transparent mobile:bg-gradient-to-br from-red-700 to-app-blue-200 text-white pt-10`}
                 >
                     <h1

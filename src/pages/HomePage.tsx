@@ -13,7 +13,7 @@ export const HomePage = () => {
   return (
     <div className="w-screen bg-gradient-to-r from-red-800 to-app-blue-200">
       <Header />
-      <main className="h-screen flex laptop:flex-row mobile:flex-col">
+      <main className="laptop:h-screen flex laptop:flex-row mobile:flex-col">
         <section className="laptop:w-2/5 mobile:w-full laptop:h-full bg-atranspaent flex items-center justify-center mobile:mt-5 laptop:mt-0">
           <div className="laptop:h-[75%] laptop:w-[70%] mobile:w-[90%] bg-app-blue-200 relative laptop:left-[30%] shadow-lg laptop:shadow-red-600 mobile:shadow-app-blue-100">
             <div className="w-[150px] h-[150px] mx-auto mt-10 mb-7 bg-white rounded-[50%] flex justify-center items-center">
@@ -46,7 +46,7 @@ export const HomePage = () => {
                 with NEFC PROJECTS LDA we work together for a better youth generation.
               </em>
             </h2>
-            <div className="flex gap-5 w-4/5 mb-6 mt-10 mobile:mx-auto laptop:mx-0 font-medium">
+            <div className="flex gap-5 laptop:w-4/5 mobile:w-fit mb-6 mt-10 mobile:mx-auto laptop:mx-0 font-medium">
               <NavLink
                 to="/services"
                 className="bg-app-blue-200 text-white rounded-full px-8 py-2 border border-app-blue-200 hover:bg-transparent hover:border-white"

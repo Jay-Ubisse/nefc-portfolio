@@ -11,7 +11,7 @@ export const OurWebsites = () => {
         <h1 className="font-bold text-white text-3xl border-b-2 border-white pb-2 w-fit pr-5 mb-5">
           Our Websites
         </h1>
-        <div className="flex flex-col gap-2 text-white w-3/4 mx-auto">
+        <div className="flex flex-col gap-2 text-white laptop:w-3/4 mobile:w-full mx-auto">
           <Link
             to="https://nefcprojectslda.co.mz/"
             target="_blank"

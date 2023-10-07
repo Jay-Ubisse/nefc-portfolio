@@ -24,9 +24,9 @@ export const Header = () => {
         <div
           className={`${
             menuState ? "mobile:flex bg-gradient-to-tr from-red-800 to-app-blue-200" : "mobile:hidden bg-transparent"
-          } laptop:gap-2 mobile:gap-16 items-center laptop:flex laptop:flex-row-reverse mobile:flex-col mobile:w-screen laptop:w-fit mobile:h-screen laptop:h-fit mobile:overflow-scroll laptop:overflow-hidden mobile:fixed laptop:relative top-0 left-0 mobile:pt-10 laptop:pt-0 z-30`}
+          } laptop:gap-2 mobile:gap-16 items-center laptop:flex laptop:flex-row-reverse mobile:flex-col mobile:w-screen laptop:w-fit mobile:h-screen laptop:h-fit laptop:overflow-hidden mobile:fixed laptop:relative top-0 left-0 mobile:pt-10 laptop:pt-0 z-30`}
         >
-          <div className="flex flex-row justify-end mobile:w-full laptop:w-fit">
+          <div className="flex flex-row justify-end mobile:w-full laptop:w-fit mobile:pb-20 laptop:pb-0">
             <X
               size={32}
               color="white"

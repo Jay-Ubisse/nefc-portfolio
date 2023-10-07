@@ -11,13 +11,13 @@ export const Header = () => {
       className="h-32"
       id="mainHeader"
     >
-      <section className="relative h-full flex justify-between items-center laptop:flex-row laptop:w-[95%] laptop:mx-auto">
+      <section className="relative h-full flex justify-between items-center laptop:flex-row w-[95%] mx-auto">
         <div>
           <Link to="/" className="flex flex-row laptop:gap-1">
             <img
               src={logotipo}
               alt="logo"
-              className="laptop:w-60 mobile:w-60 "
+              className="laptop:w-60 mobile:w-40"
             />
           </Link>
         </div>
@@ -80,6 +80,7 @@ export const Header = () => {
         </div>
         <List
           size={32}
+          color="white"
           className="mr-5 laptop:hidden"
           onClick={() => setMenuState(true)}
         />

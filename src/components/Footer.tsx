@@ -7,7 +7,7 @@ export const Footer = () => {
       <img
               src={logotipo}
               alt="logo"
-              className="laptop:w-60 mobile:w-60 "
+              className="laptop:w-60 mobile:w-40"
             />
         <p className="font-bold">
             NEFC Project Lda.

@@ -3,9 +3,9 @@ import { Link, NavLink } from "react-router-dom";
 import { List, X } from "@phosphor-icons/react";
 import { Switch } from "@headlessui/react";
 import { useNavigate } from "react-router-dom";
-import logotipo from "../assets/img/logo.jpg";
+import logotipo from "../../assets/img/logo.jpg";
 
-export const Header = () => {
+export const HeaderPt = () => {
   const [menuState, setMenuState] = useState(false);
   const [enabled, setEnabled] = useState(false);
 
@@ -13,7 +13,7 @@ export const Header = () => {
 
   function changeLanguage() {
     setEnabled(!enabled)
-    navigate('/pt')
+    navigate('/')
   }
 
   return (
@@ -48,12 +48,12 @@ export const Header = () => {
             <Switch
               checked={enabled}
               onChange={() => changeLanguage()}
-              className={`${enabled ? 'bg-teal-900' : 'bg-teal-700'} relative inline-flex w-[64px] shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75`}
+              className={`${enabled ? 'bg-teal-700' : 'bg-teal-900'} relative inline-flex w-[64px] shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75`}
             >
               <span className="sr-only">Use setting</span>
               <span
                 aria-hidden="true"
-                className={`${enabled ? 'translate-x-9' : 'translate-x-0'} pointer-events-none inline-block h-[24px] w-[24px] transform rounded-full bg-white shadow-lg ring-0 transition duration-200 ease-in-out`}
+                className={`${enabled ? 'translate-x-0' : 'translate-x-9'} pointer-events-none inline-block h-[24px] w-[24px] transform rounded-full bg-white shadow-lg ring-0 transition duration-200 ease-in-out`}
               />
             </Switch>
             <span>PT</span>
@@ -62,13 +62,13 @@ export const Header = () => {
             className="flex gap-6 laptop:flex-row mobile:flex-col mobile:text-xl laptop:text-lg text-center mobile:min-h-[calc(100vh-270px)] laptop:min-h-fit pr-2"
           >
             <NavLink
-              to="/"
+              to="/pt"
               className={({ isActive }) =>
                 `hover:text-red-700 ${isActive ? "text-red-700 font-semibold" : "text-white"
                 }`
               }
             >
-              About Us
+              Sobre nós
             </NavLink>
             <NavLink
               to="/services"
@@ -77,7 +77,7 @@ export const Header = () => {
                 }`
               }
             >
-              Our Services
+              Nossos Serviços
             </NavLink>
             <NavLink
               to="/projects"
@@ -86,7 +86,7 @@ export const Header = () => {
                 }`
               }
             >
-              Our Projects
+              Nossos Projectos
             </NavLink>
             <NavLink
               to="/websites"
@@ -95,7 +95,7 @@ export const Header = () => {
                 }`
               }
             >
-              Our Websites
+              Nossos Websites
             </NavLink>
           </nav>
         </div>

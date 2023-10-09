@@ -43,7 +43,7 @@ export const HeaderPt = () => {
               onClick={() => setMenuState(false)}
             />
           </div>
-          <div className="text-white flex flex-row items-center gap-3 border-l border-white pl-3">
+          <div className="text-white flex flex-row items-center gap-3 laptop:border-l mobile:border-none border-white pl-3">
             <span>EN</span>
             <Switch
               checked={enabled}
@@ -62,7 +62,7 @@ export const HeaderPt = () => {
             className="flex gap-6 laptop:flex-row mobile:flex-col mobile:text-xl laptop:text-lg text-center mobile:min-h-[calc(100vh-270px)] laptop:min-h-fit pr-2"
           >
             <NavLink
-              to="/pt"
+              to="/pt/"
               className={({ isActive }) =>
                 `hover:text-red-700 ${isActive ? "text-red-700 font-semibold" : "text-white"
                 }`

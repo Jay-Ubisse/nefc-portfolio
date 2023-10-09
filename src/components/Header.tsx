@@ -43,7 +43,7 @@ export const Header = () => {
               onClick={() => setMenuState(false)}
             />
           </div>
-          <div className="text-white flex flex-row items-center gap-3 border-l border-white pl-3">
+          <div className="text-white flex flex-row items-center gap-3 laptop:border-l mobile:border-none border-white pl-3">
             <span>EN</span>
             <Switch
               checked={enabled}

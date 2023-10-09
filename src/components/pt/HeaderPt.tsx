@@ -71,7 +71,7 @@ export const HeaderPt = () => {
               Sobre nós
             </NavLink>
             <NavLink
-              to="/services"
+              to="/pt/services"
               className={({ isActive }) =>
                 `hover:text-red-700 ${isActive ? "text-red-700 font-semibold" : "text-white"
                 }`
@@ -80,7 +80,7 @@ export const HeaderPt = () => {
               Nossos Serviços
             </NavLink>
             <NavLink
-              to="/projects"
+              to="/pt/projects"
               className={({ isActive }) =>
                 `hover:text-red-700 ${isActive ? "text-red-700 font-semibold" : "text-white"
                 }`
@@ -89,7 +89,7 @@ export const HeaderPt = () => {
               Nossos Projectos
             </NavLink>
             <NavLink
-              to="/websites"
+              to="/pt/websites"
               className={({ isActive }) =>
                 `hover:text-red-700 ${isActive ? "text-red-700 font-semibold" : "text-white"
                 }`
